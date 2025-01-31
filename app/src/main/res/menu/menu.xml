@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/hoome"
+        android:fontFamily="sans-serif-smallcaps"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/favourite"
+        android:fontFamily="sans-serif-smallcaps"
+        android:icon="@drawable/setting"
+        android:title="@string/setting" />
+
+    <item
+        android:id="@+id/setting"
+        android:fontFamily="sans-serif-smallcaps"
+        android:icon="@drawable/us"
+        android:title="about Us" />
+
+    <item android:title="Profile"
+        android:fontFamily="sans-serif-smallcaps">
+        <menu>
+            <item
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/profile"
+                android:icon="@drawable/profile_user"
+                android:title="profile" />
+
+
+        </menu>
+    </item>
+    <item android:title="Book appointment"
+        android:fontFamily="sans-serif-smallcaps">
+        <menu>
+            <item
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/appointment"
+                android:icon="@drawable/appointment"
+                android:title=" My Booking" />
+            <item
+                android:fontFamily="sans-serif-smallcaps"
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="logout" />
+        </menu>
+    </item>
+</menu>

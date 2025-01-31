@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CalenderDate">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select date"
+        android:textSize="28sp"
+        android:layout_margin="@dimen/_12sdp"
+        android:textStyle="bold"/>
+<CalendarView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_300sdp"
+    android:layout_margin="@dimen/_12sdp"
+    android:id="@+id/calender"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select time"
+        android:textSize="28sp"
+        android:layout_margin="@dimen/_12sdp"
+        android:textStyle="bold"/>
+    <Spinner
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_margin="@dimen/_12sdp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/cardBtnC"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/appColor"
+        android:text="Set appointment"
+        android:textColor="@color/white"
+        app:cornerRadius="4dp" />
+</LinearLayout>

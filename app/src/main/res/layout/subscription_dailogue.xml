@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Subscription Title -->
+    <TextView
+        android:id="@+id/text_subscription_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Premium Subscription"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Subscription Price and Duration -->
+    <TextView
+        android:id="@+id/text_subscription_price_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$9.99 per month"
+        android:textColor="#666"
+        android:textSize="18sp" />
+
+    <!-- Subscription Features -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp">
+
+        <!-- Feature 1 -->
+        <TextView
+            android:id="@+id/text_feature1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access to premium content"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <!-- Feature 2 -->
+        <TextView
+            android:id="@+id/text_feature2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad-free experience"
+            android:textColor="#333"
+            android:textSize="16sp" />
+
+        <!-- Feature 3 -->
+        <TextView
+            android:id="@+id/text_feature3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exclusive features"
+            android:textColor="#333"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Subscribe Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_subscribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe"
+        android:backgroundTint="@color/appColor"
+        android:textColor="#fff"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

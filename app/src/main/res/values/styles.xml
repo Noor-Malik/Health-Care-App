@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Base.Theme.HomeRentalApp">
+        <item name="colorPrimary">@color/appColor</item>
+    </style>
+
+    <style name="textHeading" parent="Base.Theme.HomeRentalApp">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FCFBFB</item>
+    </style>
+    <style name="cardView" parent="Base.Theme.HomeRentalApp">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FBF9F9</item>
+    </style>
+</resources>

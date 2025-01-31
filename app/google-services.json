@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984513760757",
+    "project_id": "healthcare-app-629c1",
+    "storage_bucket": "healthcare-app-629c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984513760757:android:eb502b78b2b73cfc8ce4bc",
+        "android_client_info": {
+          "package_name": "com.example.homerentalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTaoGKQQmtDYNGeS94Qafs0Ck72OTokgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

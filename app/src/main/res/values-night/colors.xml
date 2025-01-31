@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_grey">#DEE1E9</color>
+    <color name="dark_grey">#9DA0A2</color>
+    <color name="dark_orange">#B05F35</color>
+    <color name="colorPrimary">#4163ce</color>
+    <color name="underLine">#BDB8BB</color>
+    <color name="appColor">#075F56</color>
+    <color name="btnTextColor">#FFFFFFFF</color>
+    <color name="btnTint">#FFFFFFFF</color>
+    <color name="themeColor">#4163ce</color>
+    <color name="my_color">#4163ce</color>
+    <color name="red">@android:color/holo_red_dark</color>
+</resources>
